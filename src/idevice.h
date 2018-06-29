@@ -27,7 +27,7 @@
 #endif
 
 #ifdef HAVE_OPENSSL
-#include <openssl/ssl.h>
+#include <openssl/ssl.h> 
 #else
 #include <gnutls/gnutls.h>
 #include <gnutls/x509.h>
